@@ -1,0 +1,85 @@
+.home {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 99vh;
+    width: 50vw;
+}
+.image_Container{
+    height: 70vh;
+    width: 99vw;
+    overflow: hidden;  
+}
+@keyframes Animation {
+    0%{left:0vw}
+    5%{left:0vw}
+    10%{left:100vw}
+    15%{left:100vw}
+    20%{left:200vw}
+    25%{left:200vw}
+    30%{left:200vw}
+    35%{left:300vw}
+    40%{left:300vw}
+    45%{left:300vw}
+    50%{left:400vw}
+    55%{left:400vw}
+    60%{left:400vw}
+    65%{left:300vw}
+    70%{left:300vw}
+    75%{left:200vw}
+    80%{left:200vw}
+    85%{left:200vw}
+    90%{left:100vw}
+    95%{left:100vw}
+    100%{left:100vw}
+}
+.Images{
+    width: 600vw;
+    height: 100%;
+    position: relative;
+    animation-name: Animation;
+    margin: 0 0 0 -400vw;
+    animation-duration:30s;
+    animation-iteration-count: infinite;
+    animation-direction:normal  ;
+    animation-play-state: running;
+}
+
+.Image_slider{
+    height: 100vh;  
+    width: 100vw;
+    position: relative;
+    float: left;
+    transition: width 1s;
+
+}
+.Image_slider>img{
+    height: 95vh;
+    width: 95vw;
+}
+.Image_slider>img:hover{
+    height: 100vh;
+    width: 100vw;
+        cursor: pointer;
+}
+.thirdpage{
+    width: 100vw;
+    height: 50vh;
+}
+.thirdpage>img{
+    width: 100vw;
+    height: 30vh;
+}
+.fourthpage{
+    width: 100vw;
+    height: 100vh;
+}
+.fourthpage>img{
+    width: 100vw;
+    height: 100vh;
+}
+

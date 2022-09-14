@@ -1,0 +1,53 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100%; 
+    background: url('./Images/Register.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.regh1{
+    color: black;
+    letter-spacing: 20px;
+    position: relative;
+    left: 8%;
+    top: 2%;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px black;
+}
+.subreg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    height: 80vh;
+    width: 40vw;
+    box-shadow: 20px 10px 250px white;
+    border-radius: 70px;
+    background-color: rgba(255, 255, 255, 0.452);
+}
+::-webkit-input-placeholder{
+    color: red;
+    opacity: 0.5;
+    text-shadow: 2px 2px 10px black;
+ }
+.regform{
+    display: flex;
+    flex-direction: column;
+}
+.rf{
+
+margin: 10px 0;
+padding: 10px 0;
+width:30vw;
+text-align: center;
+border: none;
+outline: none;
+box-shadow: 5px 5px 25px black;
+border-radius: 15px;
+
+}

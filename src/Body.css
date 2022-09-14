@@ -1,0 +1,15 @@
+.add{
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-image: linear-gradient(grey,white);
+}
+
+img{
+    height: 80vh;
+    width: 50vw;
+    opacity: 0.5;
+}
